@@ -13,8 +13,8 @@ class Train {
     int countOp = 0;
     int length = 1;
     bool calculated = false;
-    Cage *first;
-    Cage *last;
+    Cage *first = nullptr;
+    Cage *last = nullptr;
  public:
     void addCage(bool light);
     int getLength();
